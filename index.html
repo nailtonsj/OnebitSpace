@@ -13,12 +13,82 @@
   <link rel="stylesheet" href="style.css">
   <!-- animação texto -->
   <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+  <!-- bootstrap Icon via cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body>
-  <h1 class="" data-aos="fade-down">Hello world</h1>
-  <a href="./pages/falcon9.html">Falcon</a>
-  <a href="./pages/humanFlight.html">Human</a>
+  <!-- navbar -->
+  <div class="container-fluid home-bg-1   pt-3">
+    <header style="margin-bottom: 200px;">
+      <nav class="container navbar navbar-expand-lg  text-white align-items-center">
+        <div class="container-fluid text-white ">
+          <a class="navbar-brand me-md-5" href="#"><img src="./img/logo-obc-2021-darkbg.png" width="200" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""><i class="bi bi-list fs-1 myMenu"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" style="font-weight: bold;" href="./pages/falcon9.html">Falcon9</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="font-weight: bold;" href="./pages/humanFlight.html">humanFlight</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class=" text-white container  d-flex flex-column" data-aos="fade-up" data-aos-duration="1500">
+      <p class="h5">LANÇAMENTO A CAMINHO</p>
+      <p class="h1">MISSÃO EQUIPE-3</p>
+      <a href="" class="btn btn-outline-light mt-5 align-self-start" id="button">Saiba Mais</a>
+      <div class="text-center mt-5 align-self-center">
+        <img src="./img/home/arrowDown.gif" width="90" alt="">
+      </div>
+    </div>
+
+  </div>
+  <!-- bg-2 -->
+  <div class="home-bg-2 d-flex align-items-center">
+    <div class=" text-white container  d-flex flex-column" data-aos="fade-right" data-aos-duration="1500">
+      <p class="h5">MISSÃO CONCLUÍDA</p>
+      <p class="h1">MISSÃO EQUIPE-2 <br> RETORNOU PARA A TERRA</p>
+      <a href="" class="btn btn-outline-light mt-5 align-self-start" id="button">Saiba Mais</a>
+    </div>
+  </div>
+  <!-- bg-3 -->
+  <div class="home-bg-3 d-flex align-items-center">
+    <div class=" text-white container  d-flex flex-column" data-aos="fade-down" data-aos-duration="1500">
+      <p class="h5">MISSÃO CONCLUÍDA</p>
+      <p class="h1">DRAGON RETORNOU PARA <br> A TERRA</p>
+      <a href="" class="btn btn-outline-light mt-5 align-self-start" id="button">Saiba Mais</a>
+    </div>
+  </div>
+  <!-- bg-4 -->
+  <div class="home-bg-4 d-flex align-items-center">
+    <div class=" text-white container  d-flex flex-column" data-aos="fade-down-right" data-aos-duration="1500">
+
+      <p class="h1">STARSHIP POUSA ASTRONAUTAS <br> DA NASA NA LUA</p>
+      <a href="" class="btn btn-outline-light mt-5 align-self-start" id="button">Saiba Mais</a>
+    </div>
+  </div>
+  <!-- footer -->
+
+  <footer class="d-flex flex-wrap justify-content-center align-items-center py-5  footer">
+    <div class=" d-flex align-items-center">
+      <a href="./index.html" class=" text-muted text-decoration-none lh-1 link-danger">
+        <span class=""> OneBitCode ©2021</span>
+      </a>
+    </div>
+
+    <ul class="nav  justify-content-center align-items-center list-unstyled d-flex">
+      <li class="ms-3 "> <a class="text-decoration-none" href="#">Instagram</a></li>
+      <li class="ms-3"><a class="text-decoration-none" href="#">Facebook</a></li>
+      <li class="ms-3"><a class="text-decoration-none" href="#">Twitter</a></li>
+    </ul>
+  </footer>
+
   <!-- script bootstrap -->
   <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
   <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
