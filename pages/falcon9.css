@@ -1,0 +1,157 @@
+.falcon-bg-1 {
+  background: url("../img/falcon9/01.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.falcon-bg-2 {
+  background: url("../img/falcon9/02.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-3 {
+  background: url("../img/falcon9/03.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-4 {
+  background: url("../img/falcon9/04.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-5 {
+  background: url("../img/falcon9/05.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-6 {
+  background: url("../img/falcon9/06.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-7 {
+  background: url("../img/falcon9/07.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-8 {
+  background: url("../img/falcon9/08.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-9 {
+  background: url("../img/falcon9/09.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-10 {
+  background: url("../img/falcon9/10.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-11 {
+  background: url("../img/falcon9/11.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-12 {
+  background: url("../img/falcon9/12.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-13 {
+  background: url("../img/falcon9/13.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-14 {
+  background: url("../img/falcon9/14.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.falcon-bg-15 {
+  background: url("../img/falcon9/15.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.bg-full {
+  height: 100vh;
+}
+.falcon-texto {
+  margin-top: 80px;
+}
+.falcon-texto p {
+  line-height: 1.7;
+  font-size: 24px;
+}
+
+.myscroll {
+  padding: 20px 0;
+  overflow-y: hidden;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+@media (max-width: 1000px) {
+  .falcon-texto {
+    margin-top: 60px;
+  }
+  .falcon-texto p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .falcon-texto {
+    margin-top: 30px;
+  }
+  .falcon-texto p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 420px) {
+  .falcon-texto {
+    margin-top: 15px;
+  }
+  .falcon-texto p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 360px) {
+  .falcon-texto {
+    margin-top: 7px;
+    font-size: 14px;
+  }
+  .falcon-texto p {
+    font-size: 16px;
+  }
+}
