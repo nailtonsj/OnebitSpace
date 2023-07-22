@@ -1,0 +1,46 @@
+.human-bg-1 {
+  background: url("../img/humanFlight/01.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.human-bg-2 {
+  background: url("../img/humanFlight/02.jpg");
+  background-position: bottom bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.human-bg-3 {
+  background: url("../img/humanFlight/03.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.human-bg-4 {
+  background: url("../img/humanFlight/04.jpg");
+  background-position: start start;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.human-bg-5 {
+  background: url("../img/humanFlight/05.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.bg-full {
+  height: 100vh;
+}
+.media {
+  margin-bottom: 100px;
+}
+@media (max-width: 400px) {
+  .media {
+    margin-bottom: 0px;
+  }
+}

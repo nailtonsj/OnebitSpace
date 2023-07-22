@@ -8,22 +8,128 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
   <!-- bootstrap css -->
-  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../bootstrap.min.css">
   <!-- Css Personalizado -->
   <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="./humanFlight.css">
   <!-- animação texto -->
-  <link rel="stylesheet" href="../node_modules/aos/dist/aos.css">
+  <link rel="stylesheet" href="../aos.css">
   <!-- bootstrap Icon via cdn -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body>
-  <h1 class="" data-aos="fade-down">Hello world</h1>
+  <!-- navbar -->
+  <div class="container-fluid human-bg-1  pt-3">
+    <header style="margin-bottom: 200px;">
+      <nav class="container navbar navbar-expand-lg  text-white align-items-center">
+        <div class="container-fluid text-white ">
+          <a class="navbar-brand me-md-5" href="../index.html"><img src="../img/logo-obc-2021-darkbg.png" width="200" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""><i class="bi bi-list fs-1 myMenu"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" style="font-weight: bold;" href="./falcon9.html">Falcon9</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" style="font-weight: bold;" href="./humanFlight.html">humanFlight</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class=" text-white container  d-flex flex-column text-center" data-aos="fade-down" data-aos-duration="1500">
+      <p class="display-1">HUMAN SPACEFLIGHT</p>
+      <p class="h1">FAZENDO A VIDA MULTIPLANETÁRIA</p>
+      <div class="text-center mt-5 align-self-center">
+        <img src="../img/home/arrowDown.gif" width="150" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- bg-2 -->
+  <div class="container-fluid human-bg-2 text-white bg-dark">
+    <div class="container">
+      <div class="text-center pt-5 pb-5 media" data-aos="flip-right" data-aos-duration="1500">
+        <p class="lead">SpaceX também oferece voos cormeciais para orbita terrestre e lunar. Para começar a <br>planejar a sua jornada, por favor contate-nos por <strong>onebitcode@gmail.</strong> com</p>
+      </div>
+      <div class=" text-center text-sm-start offset-md-4  offset-lg-7  d-flex flex-column" data-aos="fade-right" data-aos-duration="1500">
+        <p class="h6">MISSAO</p>
+        <p class="display-4 " style="line-height: 1; font-weight: bold;">ORBITA DA TERRA</p>
+        <p class="lead fs-3">EXPERIMENTE O PLANETA AZUL A 300KM DE ALTURA</p>
+        <a href="" class="btn btn-outline-light mt-2  align-self-sm-start" id="button">Saiba Mais</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- bg-3 -->
+  <div class="container-fluid human-bg-3 text-white pt-3">
+    <div class="container">
+      <div class="d-flex flex-column text-center text-sm-start" data-aos="fade-up" data-aos-duration="1500" style="padding-top: 250px;">
+        <p class="h6">MISSAO</p>
+        <p class="display-4 " style="line-height: 1; font-weight: bold;">ESTAÇÃO ESPACIAL</p>
+        <p class="lead fs-3">TRANSPORTANTO HUMANOS PARA O LABORATÓRIO VOADOR NO CÉU</p>
+        <a href="" class="btn btn-outline-light mt-2  align-self-sm-start" id="button"> Explorar</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- bg-4 -->
+  <div class="container-fluid human-bg-4 text-white bg-dark">
+    <div class="container">
+      <div class=" text-center text-sm-start offset-md-4  offset-lg-7  d-flex flex-column" data-aos="fade-right" data-aos-duration="1500" style="padding-top: 200px;">
+        <p class="h6">MISSAO</p>
+        <p class="display-4 " style="line-height: 1; font-weight: bold;">LUA</p>
+        <p class="lead fs-4">RETORNANDO HUMANOS PARA A NOSSA LUA VIZINHA</p>
+        <a href="" class="btn btn-outline-light mt-2  align-self-sm-start" id="button">Explorar</a>
+      </div>
+    </div>
+  </div>
+  <!-- bg-5 -->
+  <div class="container-fluid human-bg-5 text-white pt-3">
+    <div class="container" data-aos="flip-right" data-aos-duration="1500">
+      <div class="d-flex flex-column text-center text-sm-start" data-aos="fade-up" data-aos-duration="1500" style="padding-top: 250px;">
+        <p class="h6">MISSAO</p>
+        <p class="display-4 " style="line-height: 1; font-weight: bold;">MARTE E ALÉM</p>
+        <p class="lead fs-5">O CAMINHO PARA TORNAR A HUMANIDADE MULTIPLANETÁRIA</p>
+        <a href="" class="btn btn-outline-light mt-2  align-self-sm-start" id="button"> Explorar</a>
+      </div>
+    </div>
+  </div>
+  <!-- footer extra -->
+  <div class="container-fluid bg-full bg-dark text-white pt-5 justify-content-center align-items-center d-flex ">
+    <div class="container text-center">
+      <p class="mb-4 fs-5" data-aos="fade-right" data-aos-duration="1500">Para mais informações sobre os serviçoes entre em contato com onebitcode@gmail.com</p>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <a href="" id="button" class="btn btn-outline-light " data-aos="flip-left" data-aos-duration="1500">
+          BAIXAR GUIA DE USUÁRIO
+        </a>
+        <a href="" id="button" class="btn btn-outline-light" data-aos="flip-up" data-aos-duration="1500">
+          CAPACIDADES E SERVIÇOS
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="d-flex flex-wrap justify-content-center align-items-center py-5  footer">
+    <div class=" d-flex align-items-center">
+      <a href="./index.html" class=" text-muted text-decoration-none lh-1 link-danger">
+        <span class=""> OneBitCode ©2021</span>
+      </a>
+    </div>
+
+    <ul class="nav  justify-content-center align-items-center list-unstyled d-flex">
+      <li class="ms-3 "> <a class="text-decoration-none" href="#">Instagram</a></li>
+      <li class="ms-3"><a class="text-decoration-none" href="#">Facebook</a></li>
+      <li class="ms-3"><a class="text-decoration-none" href="#">Twitter</a></li>
+    </ul>
+  </footer>
   <!-- script bootstrap -->
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  <script src="../node_modules/@popperjs/core/dist/umd/popper.js"></script>
+  <script src="../bootstrap.min.js"></script>
+  <script src="../popper.min.js"></script>
   <!-- animacao -->
-  <script src="../node_modules/aos/dist/aos.js"></script>
+  <script src="../aos.js"></script>
   <script>AOS.init();</script>
 </body>
 
