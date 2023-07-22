@@ -7,7 +7,7 @@
 }
 .human-bg-2 {
   background: url("../img/humanFlight/02.jpg");
-  background-position: bottom bottom;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -21,7 +21,7 @@
 }
 .human-bg-4 {
   background: url("../img/humanFlight/04.jpg");
-  background-position: start start;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
